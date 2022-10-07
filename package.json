@@ -1,0 +1,15 @@
+{
+  "name": "testtable",
+  "version": "1.0.0",
+  "description": "testtable React/node project",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"(npm start --prefix front)\" \"(node ./back/index.js)\""
+  },
+  "author": "Igor Belozub belozubi@yandex.ru",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^7.4.0",
+    "pg": "^8.8.0"
+  }
+}
